@@ -9,10 +9,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
 </head>
 
 <body>
     <div class="main">
+        <div class="hamburger">
+            <div class="hamburger__wrapper">
+                <hr>
+                <div class="hamburger__list-item">
+                    <img src="/icons/more_vert_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    <div class="hamburger-text">
+                        ABOUT
+                    </div>
+                </div>
+                <hr>
+                <div class="hamburger__list-item">
+                    <img src="/icons/design_services_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    <div class="hamburger-text">
+                        SERVICES
+                    </div>
+                </div>
+                <hr>
+                <div class="hamburger__list-item">
+                    <img src="/icons/shape_line_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    <div class="hamburger-text">
+                        TECHNOLOGIES
+                    </div>
+                </div>
+                <hr>
+                <div class="hamburger__list-item">
+                    <img src="/icons/satellite_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    <div class="hamburger-text">
+                        HOW TO
+                    </div>
+                </div>
+                <hr>
+                <button class="button2 hamburger__button">CONTACT US</button>
+                <button class="button hamburger__button">JOIN HYDRA</button>
+            </div>
+        </div>
         <div class="container">
             <div class="navbar main__navbar">
                 <div class="navbar-icon">
@@ -21,12 +59,15 @@
                 </div>
                 <div class="navbar__list">
                     <div class="navbar__list-item">ABOUT</div>
+
                     <div class="navbar__list-item">SERVICES</div>
+
                     <div class="navbar__list-item">TECHNOLOGIES</div>
+
                     <div class="navbar__list-item">HOW TO</div>
                 </div>
                 <div class="navbar__buttons">
-                    <button class="navbar__buttons-item">CONTACT US</button>
+                    <button class="navbar__buttons-item button2">CONTACT US</button>
                     <button class="navbar__buttons-item button">JOIN HYDRA</button>
                 </div>
                 <div class="hamburger-button">
@@ -107,6 +148,7 @@
         </div>
     </div>
     </div>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
